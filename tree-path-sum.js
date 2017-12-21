@@ -13,4 +13,37 @@
  * @return {boolean}
  *
 */
+const testTree = {
+  val: 5,
+  right: {
+    val: 8,
+    right: {
+      val: 12,
+      right: {
+        val: 13,
+        right: null,
+        left: null,
+      },
+      left: {
+        val: 13,
+        right: null,
+        left: null,
+      },
+    },
+    left: null,
+  },
+  left: {
+    val: 3,
+    right: {
+      val: 4,
+      right: null,
+      left: null,
+    },
+    left: {
+      val: 2,
+      right: null,
+      left: null,
+    },
+  },
+};
 
