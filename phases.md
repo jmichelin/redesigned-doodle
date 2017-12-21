@@ -3,7 +3,7 @@ The approach we will focus on will involve a series of phases. Starting with Set
 ## Setup Phase
 This is the first phase of problem solving. It is important to make sure you understand the problem, plan your approach, and analyze the quality of your approach.
 ### Parse
-Here you should make sure that you have a clear understanding of inputs, outputs, constraints and a good name in verbNoun format. You want to make sure you know what data structure to use, what the structure looks like in code and a sample of data to use for testing.
+Here you should make sure that you have a clear understanding of inputs, outputs, constraints and a good name in verbNoun format. You want to make sure you know what data structure to use, what the structure looks like in code and a sample of data to use for testing. If the input or output format are not scalar then diagram them out. Being able to visualize the problem is crucial to understanding it.
 ### Strategize
 Now is the time to come up with a plan of attack. Don't focus on coming up with the most eloquent solution at first. Create a high level plan for what procedures you will need to get from input to output. Once the high level plan makes sense, go deeper creating a step by step strategy using precise english. Once the pseudocode is complete spend time to analyze the big-o to get an idea of the quality of the solution. Think of ways to refactor into a better complexity (space or time). Adjust your high level and step by step strategies to match the revised solution.
 ## Implementation Phase
