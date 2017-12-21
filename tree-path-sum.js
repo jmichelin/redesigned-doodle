@@ -51,5 +51,19 @@ const testTree = {
 };
 
 const hasPathSum = (root, sum) => {
-  
+  // return false if no root
+  // declare result variable
+  // create traverse() function with node and a total as params
+    // assign new total to passed in total and the node's value
+    // if node has a left child
+      // call traverse function on the left child and new total
+    // if node has a right child
+      // call traverse function on the right child and new total
+    // if node is a leaf
+      // if new total equals sum
+        // assign true to result
+  // call traverse function on the root node and zero as total
+  // if result equals true
+    // return true
+  // else return false
 };
