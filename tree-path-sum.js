@@ -8,11 +8,14 @@
  *  right: null or node
  * }
  * 
+ * Constraints: Path must be root to leaf, no partial paths 
+ *
  * @param {TreeNode} root
  * @param {number} sum
  * @return {boolean}
  *
 */
+
 const testTree = {
   val: 5,
   right: {
@@ -46,4 +49,3 @@ const testTree = {
     },
   },
 };
-
